@@ -31,7 +31,6 @@ public class ApplicationConfig extends Application {
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(API.Agrega.class);
         resources.add(API.ExampleResource.class);
-        resources.add(API.RutaCorta.class);
         resources.add(API.enviaGrafo.class);
     }
     

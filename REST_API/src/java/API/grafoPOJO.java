@@ -6,8 +6,8 @@ public class grafoPOJO {
     private int matrixLenghtRoads[][];
     private int roadMatrix[][];
     private int matrixLenghtRoads2[][];
-    private Lista route;
-    private Lista list;
+    private ListaNodo route;
+    private ListaNodo list;
 
     public grafoPOJO(){
     }
@@ -44,19 +44,19 @@ public class grafoPOJO {
         this.matrixLenghtRoads2 = matrixLenghtRoads2;
     }
 
-    public Lista getRoute() {
+    public ListaNodo getRoute() {
         return route;
     }
 
-    public void setRoute(Lista route) {
+    public void setRoute(ListaNodo route) {
         this.route = route;
     }
 
-    public Lista getList() {
+    public ListaNodo getList() {
         return list;
     }
 
-    public void setList(Lista list) {
+    public void setList(ListaNodo list) {
         this.list = list;
     }
 }

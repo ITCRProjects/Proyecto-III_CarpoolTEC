@@ -1,4 +1,4 @@
-package carpool.ConsumirREST;
+package API;
 
 public class Rider extends User {
 
